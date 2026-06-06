@@ -898,6 +898,15 @@ The training images were compressed into a **latent space** — a map of visual 
 
 ---
 
+<!-- _class: alignment -->
+<div class="header-label">IMAGE GENERATION</div>
+
+## 5.6 A Video to Explain and Demonstrate Image Generation
+
+It is hard to undertstand how denoising can produce a meaningful image, especially one that is invented using previous patterns.  The following video provides an explanation: [How AI Image Generation Works](https://www.youtube.com/watch?v=iv-5mZ_9CPY)
+
+---
+
 <!-- _class: divider social -->
 <div class="divider-content">
 
