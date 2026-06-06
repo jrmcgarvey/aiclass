@@ -915,31 +915,52 @@ The training images were compressed into a **latent space** — a map of visual 
 <!-- _class: social -->
 <div class="header-label">SELF-DRIVING CARS</div>
 
-## 6.1 – 6.3 The Full Stack
+## 6.1 Historical Roots: Learning to Stay on the Road
 
-A self-driving vehicle is a **pipeline**, not a single AI:
+**ALVINN (Carnegie Mellon, late 1980s):** early neural network trained on camera video + human steering — backprop, gradient descent, loss function. Worked well in familiar conditions.
 
-1. **Sensors** — cameras, LiDAR, radar, GPS/HD maps. Each has distinct failure modes. Redundancy is deliberate.
-2. **Sensor fusion** — combine all sensor streams into one scene representation (transformer-based)
-3. **Perception** — object detection, semantic segmentation, localization
-4. **Prediction** — where will each pedestrian / cyclist be in 3 seconds? Probability distributions, not single trajectories.
-5. **Planning** — route, behavior, motion (three nested levels)
-6. **Control** — steering, throttle, brake. Classical feedback controllers, not neural networks.
+**The core failure:** a model trained only on correct driving has never seen recovery. Once it drifts, it's in territory training never covered — and keeps drifting.
+
+**The fix — DAgger (Dataset Aggregation, ~2011):**
+- Deploy the model; let it drive
+- A human expert labels each state the model *actually visits* with the correct action — including off-nominal states
+- Add those pairs to training; retrain; repeat
+
+<div class="callout">Key insight: you must train on states the model actually reaches, not just states an expert would visit.</div>
 
 ---
 
 <!-- _class: social -->
 <div class="header-label">SELF-DRIVING CARS</div>
 
-## 6.4 Modular vs. End-to-End
+## 6.2 – 6.3 The Full Stack
+
+A self-driving vehicle is a **pipeline**, not a single AI:
+
+1. **Sensors** — cameras, LiDAR, radar, GPS/HD maps. Each has distinct failure modes; redundancy is deliberate.
+2. **Beyond the four primaries** — IMUs detect slip and unexpected forces (digital vestibular sense); wheel/suspension sensors infer road surface; microphone research ongoing for sirens and horns.
+3. **Sensor fusion** — combine all streams into one scene representation (transformer-based)
+4. **Perception** — object detection, semantic segmentation, localization
+5. **Prediction** — probability distributions over futures, not single trajectories
+6. **Planning** — route, behavior, motion (three nested levels)
+7. **Control** — steering, throttle, brake. Classical feedback controllers, not neural networks.
+
+<div class="callout">Humans also use eye contact, hand gestures, and sound. Current AVs replicate only a subset of human sensory integration.</div>
+
+---
+
+<!-- _class: social -->
+<div class="header-label">SELF-DRIVING CARS</div>
+
+## 6.5 Modular vs. End-to-End
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:8px">
 <div>
 
 **Modular (Waymo)**
-- Each stage is a separate, testable component
-- Engineers can isolate failures
-- Interpretable
+- Human-designed interfaces between stages
+- Each stage inspectable and testable
+- Failures can be isolated
 - Expensive sensor suite (LiDAR)
 
 </div>
@@ -948,20 +969,55 @@ A self-driving vehicle is a **pipeline**, not a single AI:
 **End-to-End (Tesla)**
 - Pixels in → driving commands out
 - Intermediate representations learned, not designed
-- Camera-only
+- Camera-only; vast fleet data
 - Hard to diagnose failures
 
 </div>
 </div>
 
-<div class="callout">Both have made remarkable progress. The question of which philosophy wins — and when — is genuinely open.</div>
+**The long-tail problem cuts hardest against end-to-end:** neural networks are interpolators — they degrade on inputs far from training data. Rare events may appear too infrequently to learn. The physical world generates novel situations continuously; the tail is inexhaustible.
 
 ---
 
 <!-- _class: social -->
 <div class="header-label">SELF-DRIVING CARS</div>
 
-## 6.5 The SAE Scale
+## 6.5 A Concrete Failure: Tempe, Arizona 2018
+
+An Uber autonomous vehicle struck and killed Elaine Herzberg, who was walking her bicycle across a road at night.
+
+**What the NTSB found:**
+- System cycled between classifying her as an unknown object, a vehicle, and a bicycle — never settling
+- Not designed to infer that a bicycle classification implied a human nearby
+- Emergency braking had been **disabled** by engineers to reduce false positives
+- Safety driver was not watching the road
+
+<div class="callout">A perception failure under an unusual combination of circumstances the training distribution had not adequately covered — a textbook long-tail event.</div>
+
+---
+
+<!-- _class: social -->
+<div class="header-label">SELF-DRIVING CARS</div>
+
+## 6.6 Waymo's World Model: Neuro-Symbolic AI
+
+Waymo doesn't just use neural networks — it encodes **explicit physics-based knowledge** alongside them. This is a hybrid of classical AI (GOFAI) and deep learning.
+
+The world model operates in four ways — not as a fallback, but woven in throughout:
+
+- **Constraint:** physically impossible trajectories are ruled out before planning considers them
+- **Prior:** when the network is uncertain, physics and context resolve the ambiguity (Bayesian reasoning)
+- **Simulation substrate:** possible futures are simulated forward; the network assigns probabilities to them
+- **Planning space:** motion planning searches only within physically valid, map-consistent trajectories
+
+<div class="callout">This is <strong>neuro-symbolic AI</strong> — arguably the most sophisticated real-world deployment of that hybrid philosophy.</div>
+
+---
+
+<!-- _class: social -->
+<div class="header-label">SELF-DRIVING CARS</div>
+
+## 6.7 The SAE Scale
 
 | Level | Description | Who's responsible |
 |---|---|---|
@@ -979,21 +1035,40 @@ The legal threshold between 2 and 3 has shaped every company's product strategy.
 <!-- _class: social -->
 <div class="header-label">SELF-DRIVING CARS</div>
 
-## 6.6 – 6.8 Waymo vs Tesla
+## 6.8 – 6.9 Waymo vs Tesla
 
 **Waymo** — true Level 4 robotaxi in SF, LA, Phoenix, Austin
 - All decisions made onboard (latency physics demand it)
-- Cloud used only for training updates, monitoring, edge-case assistance
-- Expensive sensor suite has slowed scaling
+- Cloud used only for training, updates, monitoring, edge-case assistance
+- Expensive sensor suite has constrained scaling
 
 **Tesla** — Level 2 "Full Self-Driving" (officially)
-- Camera-only; end-to-end neural networks
-- Level 4 robotaxi launched Austin mid-2025; SF (with safety driver) late 2025
-- Massive fleet data advantage
+- Camera-only; end-to-end neural networks; massive fleet data
+- Level 4 robotaxi launched Austin mid-2025; SF (with safety driver) 2025–26
 
-**Safety:** Waymo has published strong comparative data. Tesla's robotaxi dataset is too new for meaningful comparison.
+**Safety:** Waymo has published strong comparative data across millions of driverless miles. Tesla's robotaxi dataset is too new for meaningful comparison.
 
 **Level 5 — fully autonomous everywhere — remains unsolved for both.**
+
+---
+
+<!-- _class: social -->
+<div class="header-label">SELF-DRIVING CARS</div>
+
+## 6.10 Beyond Passenger Cars: Autonomous Trucking
+
+**The economic case is compelling:** driver shortage, wages, mandatory rest periods, hours-of-service rules — human drivers are the largest freight operating cost.
+
+**Aurora Innovation** is the clear leader:
+- May 2025: first commercial driverless Class 8 trucks on public roads (Dallas–Houston)
+- Early 2026: 250,000+ driverless miles, zero attributed collisions, 12 routes across Sun Belt
+- Some trucks carry a passive observer at partner request; next-gen hardware (mid-2026) eliminates even that
+
+**Others in earlier development:** Kodiak Robotics, Torc Robotics (Daimler), Gatik (fixed middle-mile routes)
+
+**Common near-term model:** driver-out on the highway, driver-in at terminals — captures most efficiency gains while sidestepping the hardest problems.
+
+**Technical note:** 80,000 lb trucks at highway speed demand exceptional prediction horizons. Consequences of failure are severe.
 
 ---
 

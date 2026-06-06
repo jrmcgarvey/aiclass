@@ -1,4 +1,7 @@
 {
   "markdown.marp.securityLevel": "loose",
-  "markdown.marp.html": "all"
+  "markdown.marp.html": "all",
+  "markdown.marp.themes": [
+    "./ai-course-theme.css"
+  ]
 }
