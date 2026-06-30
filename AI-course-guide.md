@@ -35,11 +35,14 @@ Class recording: <https://drive.google.com/file/d/1KR56dwDyQyFmiZxAmaotwwXJWvUMa
 
 Slides: <https://drive.google.com/file/d/15uprC8spav7JQVDMPHxkdV1pSSWMMsOE/view?usp=drive_link>
 Detailed document: <https://drive.google.com/file/d/1eF_v_bDppAxdMcQ1IyB0tszQrd9ecLbq/view?usp=drive_link>
-Class recording: <https://drive.google.com/file/d/1bT3Ov1ua1NZcXQccQPB423eWWsloIR9N/view?usp=drive_link>
+Class recording: <https://drive.google.com/file/d/1QaVZmkgYY7Hpiv82TIdQfM5XuYH_pLK0/view?usp=drive_link>
 
-## Session 5: How AIs Work Part 2: Neural Network Taxonomy, Deep Dive on Image Generation
+## Session 5: How AIs Work Part 2: Do LLMs Understand? Neural Network Taxonomy, Deep Dive on Image Generation
 
-There are no new slides.  This session continues the presentation of the previous slide set.  
+Slides: <https://drive.google.com/file/d/1K4QVNM-R9DyOtCLjGbVuVd7QVPXWEgq1/view?usp=drive_link>
+Detailed document: <https://drive.google.com/file/d/1shcj4j8kF96yus7SCRaaqDcbf9BCx9ys/view?usp=drive_link>
+
+This session then continues the presentation of the previous slide set, starting at section 4 on taxonomy.  
 Class recording:  <https://drive.google.com/file/d/1bT3Ov1ua1NZcXQccQPB423eWWsloIR9N/view?usp=drive_link>
 
 In the video on how image generation works, many people were confused by the spiral in the graphs. The presenter was trying to say this: Suppose all your pictures have just two pixels, and suppose they are all black and white images.  You then have two values for each image.  Ok, we can graph that.  Then suppose some human has identified a bunch of these so-called pictures as being of dogs and cats and people.  Of course, this couldn't happen, as a "picture" of two grayscale pixels doesn't show anything recognizable, but we're just supposing, and while we're at, we'll suppose that all the cat pictures are one one arc on the graph, all the dog pictures on another, and all the people pictures are on a third arc. For real pictures, you would have a lot of dimensions, and all the cat pictures would be within one manifold in that many dimensional space. (A manifold in n-space is a surface within that space that is smooth, i.e. differentiable to use a math term.) The presenter was trying to cut that representation down to something that he could show in his 2 dimensional graph.
