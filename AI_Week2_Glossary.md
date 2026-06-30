@@ -21,7 +21,7 @@ footer: "Artificial Intelligence Glossary Week 2"
 
 <!-- _class: content technical -->
 
-<div class="header-label">Artificial Intelligence for Lay People &nbsp;·&nbsp; Week 2</div>
+<div class="header-label">IntroDuction to Artificial Intelligence &nbsp;·&nbsp; Week 2</div>
 
 ## Technical Foundations
 # The Building Blocks
@@ -36,7 +36,7 @@ footer: "Artificial Intelligence Glossary Week 2"
 
 <!-- _class: content technical -->
 
-<div class="header-label">Artificial Intelligence for Lay People &nbsp;·&nbsp; Week 2</div>
+<div class="header-label">IntroDuction to Artificial Intelligence &nbsp;·&nbsp; Week 2</div>
 
 ## Technical Foundations
 # The Building Blocks
@@ -51,7 +51,7 @@ footer: "Artificial Intelligence Glossary Week 2"
 
 <!-- _class: content technical -->
 
-<div class="header-label">Artificial Intelligence for Lay People &nbsp;·&nbsp; Week 2</div>
+<div class="header-label">IntroDuction to Artificial Intelligence &nbsp;·&nbsp; Week 2</div>
 
 ## Technical Foundations
 # How AI Learns
@@ -66,7 +66,7 @@ footer: "Artificial Intelligence Glossary Week 2"
 
 <!-- _class: content technical -->
 
-<div class="header-label">Artificial Intelligence for Lay People &nbsp;·&nbsp; Week 2</div>
+<div class="header-label">IntroDuction to Artificial Intelligence &nbsp;·&nbsp; Week 2</div>
 
 ## Technical Foundations
 # How AI Learns
@@ -79,7 +79,7 @@ footer: "Artificial Intelligence Glossary Week 2"
 
 <!-- _class: content progress -->
 
-<div class="header-label">Artificial Intelligence for Lay People &nbsp;·&nbsp; Week 2</div>
+<div class="header-label">IntroDuction to Artificial Intelligence &nbsp;·&nbsp; Week 2</div>
 
 ## AI Progress & Policy
 # Types of AI
@@ -94,7 +94,7 @@ footer: "Artificial Intelligence Glossary Week 2"
 
 <!-- _class: content progress -->
 
-<div class="header-label">Artificial Intelligence for Lay People &nbsp;·&nbsp; Week 2</div>
+<div class="header-label">IntroDuction to Artificial Intelligence &nbsp;·&nbsp; Week 2</div>
 
 ## AI Progress & Policy
 # Types of AI
@@ -107,7 +107,7 @@ footer: "Artificial Intelligence Glossary Week 2"
 
 <!-- _class: content alignment -->
 
-<div class="header-label">Artificial Intelligence for Lay People &nbsp;·&nbsp; Week 2</div>
+<div class="header-label">IntroDuction to Artificial Intelligence &nbsp;·&nbsp; Week 2</div>
 
 ## Alignment & Safety
 # Risks & Guardrails
@@ -122,7 +122,7 @@ footer: "Artificial Intelligence Glossary Week 2"
 
 <!-- _class: content alignment -->
 
-<div class="header-label">Artificial Intelligence for Lay People &nbsp;·&nbsp; Week 2</div>
+<div class="header-label">IntroDuction to Artificial Intelligence &nbsp;·&nbsp; Week 2</div>
 
 ## Alignment & Safety
 # Risks & Guardrails
@@ -138,7 +138,7 @@ footer: "Artificial Intelligence Glossary Week 2"
 
 <!-- _class: content alignment -->
 
-<div class="header-label">Artificial Intelligence for Lay People &nbsp;·&nbsp; Week 2</div>
+<div class="header-label">IntroDuction to Artificial Intelligence &nbsp;·&nbsp; Week 2</div>
 
 ## Alignment & Safety
 # The Big Picture
@@ -151,7 +151,7 @@ footer: "Artificial Intelligence Glossary Week 2"
 
 <!-- _class: content alignment -->
 
-<div class="header-label">Artificial Intelligence for Lay People &nbsp;·&nbsp; Week 2</div>
+<div class="header-label">IntroDuction to Artificial Intelligenc &nbsp;·&nbsp; Week 2</div>
 
 ## Alignment & Safety
 # The Big Picture

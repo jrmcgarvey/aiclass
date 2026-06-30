@@ -174,6 +174,11 @@ LeCun (Meta's Chief AI Scientist) argues that existential fears are, in his word
 
 <div class="callout"><strong>Sources:</strong> <a href="https://time.com/6694432/yann-lecun-meta-ai-interview/">TIME interview with Yann LeCun</a> (Feb 2024); Wall Street Journal interview via <a href="https://www.aiifi.ai/post/yann-lecun-quotes">TechCrunch, Oct 2024</a></div>
 
+---
+
+<!-- _class: progress -->
+<div class="header-label">UNDERSTANDING ARTIFICIAL INTELLIGENCE</div>
+
 ### Hinton & Bengio: The Opposite View
 
 Hinton and Bengio hold the opposite opinion and have expressed **considerable regret** for their technical contributions to the field.  In statements to the BBC, Hinton said, "I now regret my work on AI… it has the potential to destroy humanity."  In a separate interview with the BBC, Bengio said, "You could say I feel lost.  But you have to keep going and you have to engage, discuss, encourage others to think with you."
@@ -240,7 +245,7 @@ It refers to the point at which AI achieves **general intelligence surpassing th
 <!-- _class: divider -->
 <div class="divider-content">
 
-# PART TWO: AI NEAR TERM FUTURES
+# PART THREE: AI NEAR TERM FUTURES
 
 <div class="rule"></div>
 <span class="reading-label">AI NEAR TERM FUTURES</span>
@@ -265,7 +270,6 @@ The items on the list above are all being pursued actively, but they are, for th
 
 ---
 
-
 <!-- _class: alignment -->
 <div class="header-label">UNDERSTANDING ARTIFICIAL INTELLIGENCE</div>
 
@@ -278,6 +282,11 @@ git
 - State space models (Mamba, S4) — replace attention entirely with a linear-time recurrent mechanism, aiming to keep transformer-level performance without the quadratic cost
 - Diffusion language models — generate text by iterative denoising of the whole sequence at once, rather than left-to-right token prediction (a few labs have shipped early versions)
 - Liquid neural networks — continuous-time dynamical systems inspired by small biological nervous systems, very different math from standard feedforward/attention layers
+
+---
+
+<!-- _class: alignment -->
+<div class="header-label">UNDERSTANDING ARTIFICIAL INTELLIGENCE</div>
 
 ### Learning-rule departures (alternatives to backprop)
 
@@ -326,7 +335,7 @@ Humans learn both by observation and by assimilating language.  LLMs have focuse
 <!-- _class: divider -->
 <div class="divider-content">
 
-# PART THREE: CONCLUSION
+# PART FOUR: CONCLUSION
 
 <div class="rule"></div>
 <span class="reading-label">Conclusion</span>

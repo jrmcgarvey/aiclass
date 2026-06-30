@@ -9,13 +9,13 @@ paginate: false
 <div class="deco-panel"><span class="circle3"></span></div>
 <div class="title-content">
 
-# Human Cognition and AI
+# Session 6: Human Cognition and AI
 ## What Machines Can and Cannot Know
 
 <small>Understanding Artificial Intelligence</small>
 
 </div>
-<div class="title-footer">HUMAN COGNITION · SESSION</div>
+<div class="title-footer">HUMAN COGNITION · SESSION 6</div>
 
 ---
 

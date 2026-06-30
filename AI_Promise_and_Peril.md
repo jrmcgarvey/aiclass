@@ -18,7 +18,7 @@ footer: "Artificial Intelligence Promise and Peril"
 
 ## A framework for evaluating the benefits and risks of large language models and AI systems
 
-<p class="muted">Class Discussion</p>
+<p class="muted">Week 3</p>
 
 </div>
 
@@ -28,7 +28,18 @@ footer: "Artificial Intelligence Promise and Peril"
 
 <!-- _class: content social -->
 
-<div class="header-label">Artificial Intelligence for Lay People</div>
+<div class="header-label">Introduction to Artificial Intelligence</div>
+
+We will watch two videos from the Great Courses series:  
+
+9: The Ethics of AI  
+10: Promises and Perils of AI  
+
+---
+
+<!-- _class: content social -->
+
+<div class="header-label">Introduction to Artificial Intelligence</div>
 
 ## Benefits & Opportunities
 # What AI Can Do For Us — Medicine & Science
@@ -50,9 +61,7 @@ footer: "Artificial Intelligence Promise and Peril"
 
 ---
 
-<!-- _class: content social -->
-
-<div class="header-label">Artificial Intelligence for Lay People</div>
+<div class="header-label">Introduction to Artificial Intelligence</div>
 
 ## Benefits & Opportunities
 # What AI Can Do For Us — Education & Economy
@@ -76,7 +85,7 @@ footer: "Artificial Intelligence Promise and Peril"
 
 <!-- _class: content social -->
 
-<div class="header-label">Artificial Intelligence for Lay People</div>
+<div class="header-label">Introduction to Artificial Intelligence</div>
 
 ## Benefits & Opportunities
 # What AI Can Do For Us — Safety & Equity
@@ -114,7 +123,7 @@ footer: "Artificial Intelligence Promise and Peril"
 
 <!-- _class: content social -->
 
-<div class="header-label">Artificial Intelligence for Lay People</div>
+<div class="header-label">Introduction to Artificial Intelligence</div>
 
 ## Risks & Dangers
 # Part 1: Society & Economy
@@ -135,7 +144,7 @@ footer: "Artificial Intelligence Promise and Peril"
 
 <!-- _class: content social -->
 
-<div class="header-label">Artificial Intelligence for Lay People</div>
+<div class="header-label">Introduction to Artificial Intelligence</div>
 
 ## Risks & Dangers
 # Part 2: Power, Knowledge & Justice
@@ -157,7 +166,7 @@ footer: "Artificial Intelligence Promise and Peril"
 
 <!-- _class: content social -->
 
-<div class="header-label">Artificial Intelligence for Lay People</div>
+<div class="header-label">Introduction to Artificial Intelligence</div>
 
 ## Risks & Dangers
 # Part 3: Infrastructure & Existential Threats
@@ -179,7 +188,7 @@ footer: "Artificial Intelligence Promise and Peril"
 
 <!-- _class: content social -->
 
-<div class="header-label">Artificial Intelligence for Lay People</div>
+<div class="header-label">Introduction to Artificial Intelligence</div>
 
 ## Risks & Dangers
 # Additional Risks — Emerging Concerns
@@ -198,7 +207,7 @@ footer: "Artificial Intelligence Promise and Peril"
 
 <!-- _class: content social -->
 
-<div class="header-label">Artificial Intelligence for Lay People</div>
+<div class="header-label">Introduction to Artificial Intelligence</div>
 
 ## Discussion
 # Questions to Consider

@@ -144,9 +144,9 @@ Rosenblatt's Perceptron (1958) was the first algorithm that could actually learn
 
 *AI pioneer — and inadvertent author of the first AI winter*
 
-Minsky was one of the founders of the MIT AI Lab and a brilliant, provocative thinker. His 1969 book *Perceptrons* (with Seymour Papert) rigorously proved the limitations of single-layer neural networks — killing funding for the field for a decade, as was his intent.  He wanted to keep the dollars going only to GOFAI. The critique was technically correct, but Minsky and Papert failed to anticipate multi-layer networks, so more fundamentally, it was wrong. The consequence was the "AI winter", when all funding and progress on AI dried up for years.  It is a classic case of a valid proof of limitation being over-generalized into a dismissal of an entire approach. History did not vindicate the dismissal.
+Minsky was one of the founders of the MIT AI Lab and a brilliant, provocative thinker. His 1969 book *Perceptrons* (with Seymour Papert) rigorously proved the limitations of single-layer neural networks — killing funding for the field for a decade, as was his intent.  He wanted to keep the dollars going only to GOFAI. The critique was technically correct, but Minsky and Papert failed to anticipate multi-layer networks, so more fundamentally, it was wrong. The consequence was the "AI winter", when all funding and progress on AI dried up for years. History did not vindicate the Minsky's dismissal of neural networks.
 
-<div class="callout"><strong>★</strong> Minsky was convinced AI was 5–10 years away for most of his career. He said it in 1967. He was still saying it before his death in 2016.</div>
+<div class="callout"><strong>★</strong> Minsky was convinced AI was 5–10 years away for most of his career.</div>
 
 ---
 

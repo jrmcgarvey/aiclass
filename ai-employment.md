@@ -10,6 +10,7 @@ paginate: false
 <div class="title-content">
 
 # How Artificial Intelligence Is Reshaping the World of Work
+## Understanding Artificial Intelligence Session 7
 </div>
 
 ---

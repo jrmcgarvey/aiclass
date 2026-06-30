@@ -16,7 +16,7 @@ html: true
 
 <br>
 
-<span class="muted">A two-session introduction for curious non-specialists</span>
+<span class="muted">Class sessions 4 and 5. Technical, but not too bad.</span>
 
 </div>
 <div class="title-footer">UNDERSTANDING ARTIFICIAL INTELLIGENCE</div>
