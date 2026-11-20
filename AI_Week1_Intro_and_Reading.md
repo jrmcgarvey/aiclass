@@ -26,10 +26,6 @@ footer: "Artificial Intelligence Introduction and Reading List · Week 1"
 
 ---
 
-<p>The following schedule is tentative.  Some of this will be reorganized.</p>
-
----
-
 <!-- _class: overview-grid -->
 
 <div class="header-label">COURSE OVERVIEW</div>
@@ -37,7 +33,7 @@ footer: "Artificial Intelligence Introduction and Reading List · Week 1"
 <div class="grid-container">
 
 <div class="grid-card">
-  <div class="grid-number">01</div>
+  <div class="grid-number">1</div>
   <div class="grid-text">
     <div class="grid-title">Introduction the Course and Suggested Reading</div>
     <div class="grid-subtitle">How this course will work. An introductory video on what large language models like ChatGPT actually do.  Some suggested reading.</div>
@@ -45,7 +41,7 @@ footer: "Artificial Intelligence Introduction and Reading List · Week 1"
 </div>
 
 <div class="grid-card">
-  <div class="grid-number">02</div>
+  <div class="grid-number">2</div>
   <div class="grid-text">
     <div class="grid-title">What is Artificial Intelligence, with a Glossary</div>
     <div class="grid-subtitle">A video on what AI is understood to be.  Brief biographies of key contributors to the field.  A glossary of key terms, which we'll walk through.</div>
@@ -53,18 +49,27 @@ footer: "Artificial Intelligence Introduction and Reading List · Week 1"
 </div>
 
 <div class="grid-card">
-  <div class="grid-number">03</div>
+  <div class="grid-number">3</div>
+  <div class="grid-text">
+    <div class="grid-title">AI Promise and Peril</div>
+    <div class="grid-subtitle">Presentation and discussion on ethical issues, the promised returns of the technology, and its risks.</div>
+  </div>
+</div>
+
+
+<div class="grid-card">
+  <div class="grid-number">4</div>
   <div class="grid-text">
     <div class="grid-title">How AI Works</div>
-    <div class="grid-subtitle">An introduction To neural nets.  A deep dive on how they work and how they learn.  Differences between neural nets and "good old fashioned AI".</div>
+    <div class="grid-subtitle">An introduction To neural nets.  A deep dive on how they work and how they learn, emphasizing historical development, image recognition, and large language models.</div>
   </div>
 </div>
 
 <div class="grid-card">
-  <div class="grid-number">04</div>
+  <div class="grid-number">5</div>
   <div class="grid-text">
     <div class="grid-title">Varieties of Neural Networks.</div>
-    <div class="grid-subtitle">More about how neural network based AI works, and the various kinds.  Predictive AI, image recognition, image generation, driverless cars, and some very deep technical stuff on large language models.</div>
+    <div class="grid-subtitle">More about how neural network based AI works, and the various kinds. A deep dive on image generation.</div>
   </div>
 </div>
 </div>
@@ -76,37 +81,28 @@ footer: "Artificial Intelligence Introduction and Reading List · Week 1"
 <div class="grid-container">
 
 <div class="grid-card">
-  <div class="grid-number">05</div>
+  <div class="grid-number">6</div>
   <div class="grid-text">
-    <div class="grid-title">Minds, Machines, and the Limits of AI</div>
-    <div class="grid-subtitle">Do these AI systems understand, or just simulate understanding? What is the difference between how current AI systems learn and how humans do? What elements of human awareness might one day be present in AI systems, or is this impossible?</div>
+    <div class="grid-title">AI Behavior Compared with Human Cognition</div>
+    <div class="grid-subtitle">Do these AI systems understand, or just simulate understanding? What is the difference between how AI systems learn and how humans do?</div>
   </div>
 </div>
 
 <div class="grid-card">
-  <div class="grid-number">06</div>
+  <div class="grid-number">7</div>
   <div class="grid-text">
-    <div class="grid-title">Effects on Society</div>
-    <div class="grid-subtitle">Benefits and harms — human agency, privacy, democracy, health</div>
+    <div class="grid-title">AI and the World of Work</div>
+    <div class="grid-subtitle">How is AI affecting the workplace? How is it affecting employment? What will the future bring?</div>
   </div>
 </div>
 
 <div class="grid-card">
-  <div class="grid-number">07</div>
+  <div class="grid-number">8</div>
   <div class="grid-text">
-    <div class="grid-title">AI and Human Labor</div>
-    <div class="grid-subtitle">How AI will affect employment and work.</div>
+    <div class="grid-title">Dangers of AI, and Near Term Futures</div>
+    <div class="grid-subtitle">Concerns about the existential risks that may emerging in AI.  Description of technical directions.</div>
   </div>
 </div>
-
-<div class="grid-card">
-  <div class="grid-number">08</div>
-  <div class="grid-text">
-    <div class="grid-title">AI Future Prospects</div>
-    <div class="grid-subtitle">Will AI systems become Artificial General Intelligence? Will they become more intelligent than humans? What are the risks if this happens?</div>
-  </div>
-</div>
-
 </div>
 
 ---
@@ -118,6 +114,11 @@ footer: "Artificial Intelligence Introduction and Reading List · Week 1"
 This course has been assembled from various sources. The Great Courses video series, "Understanding Artificial Intelligence: Of Minds and Machines" will be used, but not in its entirety. I have instead chosen to leverage other available video and text sources, to give a more in depth course. I have relied on Claude.AI to assist in the composition of the slides.
 
 For each class session, the first hour will be presentation — videos and sometimes my lectures. We will try to save 30 minutes at the end of each session for discussion. I have also assembled some supporting material that may be useful to check out between class sessions.
+
+---
+
+
+<div class="header-label">FIRST SESSION</div>
 
 We're going to begin with this video: [This is not the AI We Were Promised](https://www.youtube.com/watch?v=CyyL0yDhr7I). This explains some important concepts about large language models. As the video shows, LLMs have been trained on extensive syntactic information — how to assemble sentences that imitate related content on the Internet, but this does not suffice for LLMs to manifest any sense of true semantic meaning. An LLM can use the words "tree" and "person" and "democracy" plausably, according to patterns that often convey useful information, but the LLM does not have a "world model", a sense of what these things in the world actually are.  Later in the course, we'll discuss a famous metaphor for what LLMs currently are: The Chinese Room.
 
@@ -329,7 +330,7 @@ The list below spans technical primers, social critiques, philosophy of mind, an
     <div class="card-title">Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity</div>
     <div class="card-meta">Daron Acemoglu & Simon Johnson</div>
     <div class="card-rule"></div>
-    <div class="card-desc">Describes how technological innovation is frequently accompanied by struggle over the resulting allocation of wealth and power in society. A long historical view on who benefits — and who doesn't — when transformative technologies arrive. I haven't read this one yet either.</div>
+    <div class="card-desc">Describes how technological innovation is frequently accompanied by struggle over the resulting allocation of wealth and power in society. A long historical view on who benefits — and who doesn't — when transformative technologies arrive.</div>
     <div class="card-tag">Technology & Society</div>
   </div>
 </div>

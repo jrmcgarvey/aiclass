@@ -16,7 +16,7 @@ html: true
 
 <br>
 
-<span class="muted">A two-session introduction for curious non-specialists</span>
+<span class="muted">Class sessions 4 and 5. Technical, but not too bad.</span>
 
 </div>
 <div class="title-footer">UNDERSTANDING ARTIFICIAL INTELLIGENCE</div>
@@ -895,6 +895,15 @@ After millions of examples: the network has a rich internal model of what images
 The training images were compressed into a **latent space** — a map of visual concepts. Dragon scales cluster near reptile skin. Neon glow clusters near wet pavement. The prompt "a knight riding a dragon over a cyberpunk city" lands in a region surrounded by all these concept clusters. The denoiser navigates toward it.
 
 *No memorized images. A learned visual grammar.*
+
+---
+
+<!-- _class: alignment -->
+<div class="header-label">IMAGE GENERATION</div>
+
+## 5.6 A Video to Explain and Demonstrate Image Generation
+
+It is hard to undertstand how denoising can produce a meaningful image, especially one that is invented using previous patterns.  The following video provides an explanation: [How AI Image Generation Works](https://www.youtube.com/watch?v=iv-5mZ_9CPY)
 
 ---
 

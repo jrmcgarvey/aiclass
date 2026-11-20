@@ -761,3 +761,7 @@ section.gaia::after {
   font-size: 18pt;
   color: var(--muted);
 }
+
+section.bigtable table {
+  font-size: 18pt;
+}
